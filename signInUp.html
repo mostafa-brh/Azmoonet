@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام / ورود</title>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/signInUp.css">
+    <link rel="stylesheet" href="fonts/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="" class="sign-in-form">
+                    <img src="image/Quiz.svg" alt="">
+                    <h2 class="title">ورود به حساب کاربری</h2>
+                    <div class="input-field">
+                        <i class="fas fa-mobile"></i>
+                        <input type="text" placeholder="شماره تلفن همراه">
+                    </div>
+                    <div class="input-field input-pass">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="password" id="password" placeholder="رمز عبور">
+                        <i class="far fa-eye" id="togglePassword"></i>
+                    </div>
+                    <input type="submit" value="ورود" class="btn solid">
+  
+                    <a href="" class="link">فراموشی رمز عبور</a>
+                    
+                </form>
+
+                <form action="" class="sign-up-form">
+                    <h2 class="title">ثبت نام</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="نام">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="نام خانوادگی">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-mobile"></i>
+                        <input type="text" placeholder="شماره تلفن همراه">
+                    </div>
+                    <div class="input-field input-pass">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="password" id="password" placeholder="رمز عبور">
+                        <i class="far fa-eye" id="togglePassword"></i>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="تکرار رمز عبور" id="password2">
+                    </div>
+                    <div class="stu-teach wrap">
+
+                        <div class="stu wrap"><img src="image/student.svg" alt="">
+                            
+                            <input type="radio" id="rad1" name="rads">دانش
+                            آموز
+                            <label for="rad1"></label>
+                        </div>
+                        <div class="teach wrap"><img src="image/Teacher.svg" alt=""><input type="radio" id="rad2" name="rads">معلم
+                            <label for="rad2"></label>
+                        </div>
+
+                    </div>
+                    <input type="submit" value="ثبت نام" class="btn solid">
+                </form>
+            </div>
+        </div>
+        <a href=""><i class="fas fa-chevron-circle-left back-btn"></i></a>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>به آزمونت خوش آمدید</h3>
+                    <p>کاربر جدید هستید ؟</p>
+                    <button class="btn transparent" id="sign-up-btn">ثبت نام</button>
+                </div>
+                <img class="image" src="image/login.svg" alt="login">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>به آزمونت خوش آمدید</h3>
+                    <p>قبلا عضو شدید ؟</p>
+                    <button class="btn transparent" id="sign-in-btn">ورود</button>
+                </div>
+                <img class="image" src="image/signup.svg" alt="signup">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/signInUp.js"></script>
+</body>
+
+</html>
